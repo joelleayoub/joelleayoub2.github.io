@@ -127,8 +127,8 @@ permalink: /projects/
                 <i class="fas fa-robot"></i>
                 <h3>No Projects Yet</h3>
                 <p>Check back soon for exciting robotics and mechatronics projects!</p>
-                <a href="https://github.com/aojedao/MESGRO" class="btn-primary" target="_blank">
-                    Contribute to MESGRO
+                <a href="https://github.com/{{ site.github_username }}" class="btn-primary" target="_blank">
+                    View my GitHub
                 </a>
             </div>
         </div>

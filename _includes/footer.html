@@ -2,14 +2,8 @@
     <div class="container">
         <div class="footer-simple">
             <div class="footer-brand">
-                <h3 class="mesgro-title">MESGRO</h3>
-                <div class="mesgro-definition">
-                    <span class="def-highlight">M</span>echanical,
-                    <span class="def-highlight">E</span>lectronics &
-                    <span class="def-highlight">S</span>oftware
-                    <span class="def-highlight">G</span>allery for
-                    <span class="def-highlight">RO</span>botics
-                </div>
+                <h3 class="site-title">{{ site.title | default: site.author }}</h3>
+                <div class="site-subtitle">Portfolio — Robotics &amp; Mechatronics</div>
             </div>
 
             <div class="social-links-center">
@@ -36,9 +30,8 @@
             </div>
 
             <div class="footer-credits">
-                <p>&copy; {{ 'now' | date: '%Y' }} {{ site.author | default: site.title }}. Built with &hearts; using Jekyll.</p>
-                <p>Designed and developed by <strong>Alejandro Ojeda Olarte</strong></p>
-                <p><a href="https://github.com/aojedao/MESGRO" target="_blank">MESGRO Template</a></p>
+                <p>&copy; {{ 'now' | date: '%Y' }} {{ site.author }}. Built with ♥ using Jekyll.</p>
+                <p>Find me on <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a>.</p>
             </div>
         </div>
     </div>
